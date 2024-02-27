@@ -167,13 +167,12 @@
   transition: background-color 0.3s;
 }
 
-
 /* Media queries */
 @media screen and (max-width: 600px) {
   .form,
-  .profile-container {
+  .profile-container{
     padding: 1rem;
-    max-width: 200px;
+    max-width: 400px;
   }
 
   .form h1 {
@@ -187,10 +186,12 @@
     padding: 0.3rem 0.8rem;
   }
 }
-
 @media screen and (min-width: 250px) and (max-width: 400px) {
   .profile-header{
     max-width: 150px;
+  }
+  .profile-container{
+    max-width: 300px;
   }
 }
 
