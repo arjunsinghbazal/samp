@@ -39,10 +39,10 @@ const Profile = () => {
         </div>
       </div>
       <div className="profile-footer">
-        <button className="delete-button gray" onClick={handleDelete}>
+        <button className="btn submit-btn decoration black" onClick={handleDelete}>
           Delete Account
         </button>
-        <button className="profile-button black" onClick={handleLogout}>
+        <button className="btn submit-btn decoration gray" onClick={handleLogout}>
           Logout
         </button>
       </div>
