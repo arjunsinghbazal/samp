@@ -1,4 +1,8 @@
 
+:root {
+  background: linear-gradient(45deg, #ffc400, #ff69b4);
+  height: 100%;
+}
 .red {
   color: red;
 }
@@ -16,6 +20,7 @@
   border: none;
   cursor: pointer;
   font-size: 1rem;
+  margin-right: 12px;
   font-weight: bold;
   border-radius: 5px;
   padding: 0.5rem 1rem;
@@ -24,7 +29,7 @@
 
 .submit-btn {
   background-color: black;
-  color: white;
+  color: #ffc400;
 }
 
 .submit-btn.gray {
@@ -38,15 +43,26 @@
 
 /* Signup Form Styles */
 .form {
-  color: black;
-  background-color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: rgb(26, 26, 26);
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 0rem 2rem;
+  padding: 2rem;
+  border-radius: 10px;
   height: auto;
   margin-top: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
 }
+
 
 .form h1 {
   color: black;
@@ -55,7 +71,8 @@
 
 .formitem {
   color: black;
-  background-color: white;
+  background: none;
+  /* text-align: center; */
   border: none;
   padding: 0.5rem 0rem;
   border-bottom: 1px solid rgb(23, 22, 22);
@@ -77,11 +94,21 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .profile-header {
-  background-color: aliceblue;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   color: black;
   padding: 1rem;
   text-align: center;
